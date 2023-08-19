@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Using in login & signup */
+.flexDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Using in signup */
+.signStyle{
+    width: 50%;
+    box-shadow: rgba(12, 2, 2, 0.459) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+}
+/* Button */
+.signBtn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Using in login */
+.logStyle{
+    width: 50%;
+    box-shadow: rgba(12, 2, 2, 0.459) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+}
+/* Button */
+.logBtn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Using in Dashborad */
+.dashBoard{
+    width: 50%;
+    box-shadow: rgba(12, 2, 2, 0.459) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    background-color: #cdcdcd;
+    padding: 10px;
+}
+/* Button */
+.submitPost{
+    margin: 10px 0px 0px 0px;
+}
+
+/* Navbar */
+.navBar{
+    background-color: rgb(150, 220, 253);
+}
+
+/* Profile */
+.profileImage{
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    border: 2px solid #000;
+    background-color: #000;
+}
